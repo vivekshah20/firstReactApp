@@ -1,28 +1,38 @@
-.App {
-  text-align: center;
+.list ul li {list-style: circle; }
+
+.list ul li a{color:#165ccc;}
+
+.list h2{font-size: 20px;}
+.aside{
+    float:right;
+  }
+  .first{
+  padding: 10px;
+  vertical-align: left;
+  width:650px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+.list ul li a:hover{text-decoration: underline; text-decoration-color: red;}
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+header {background-image: url("photographer.png");  height: 150px;  width: 100%;  background-position: center center; background-size: 5% auto;  }
+.App{background-color: #000; background-image:url("landscape.jpg"); background-position: center; background-size: 100%;   text-align: center;  min-height: 650px;  position: relative;  top:0; font-weight: 500;}
+.content{min-height:500px;}
+.list,.content{  padding:10px;}
+.content div{text-align: justify; color: #fff;}
 
-.App-title {
-  font-size: 1.5em;
-}
+.container.content{background: -moz-linear-gradient(45deg, rgba(0,0,0,0.68) 94%, rgba(0,0,0,0.68) 99%, rgba(0,0,0,0.64) 100%);
+background: -webkit-linear-gradient(45deg, rgba(0,0,0,0.68) 94%,rgba(0,0,0,0.68) 99%,rgba(0,0,0,0.64) 100%); 
+background: linear-gradient(45deg, rgba(0,0,0,0.68) 94%,rgba(0,0,0,0.68) 99%,rgba(0,0,0,0.64) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad000000', endColorstr='#a3000000',GradientType=1 ); border-radius: 15px;}
 
-.App-intro {
-  font-size: large;
-}
+footer{background: -moz-linear-gradient(45deg, rgba(0,0,0,0.68) 94%, rgba(0,0,0,0.68) 99%, rgba(0,0,0,0.64) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(0,0,0,0.68) 94%,rgba(0,0,0,0.68) 99%,rgba(0,0,0,0.64) 100%); 
+  background: linear-gradient(45deg, rgba(0,0,0,0.68) 94%,rgba(0,0,0,0.68) 99%,rgba(0,0,0,0.64) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad000000', endColorstr='#a3000000',GradientType=1 );
+  padding:10px; position: fixed; bottom: 0; width: 100%;}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+footer h2{color: #bbb; font-size: 20px;}
+
+.App-header { background-color: #111; height: 100px; padding: 10px;}
+
+
